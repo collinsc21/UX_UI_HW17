@@ -1,4 +1,35 @@
 body {
     width: 100%;
-    background-color: powderblue;
+    background-color: white;
 }
+
+.topnav {
+    background-color: #6B728B;
+    overflow: hidden;
+  }
+  /* reminder: this is for links within nav*/
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  /* hover color*/
+  .topnav a:hover {
+    background-color: #9FA4BF;
+    color: #6C718C;
+  }
+  /* active link*/
+  .topnav a.active {
+    background-color: #9FA4BF;
+    color: #6C718C;
+  }
+
+  /*footer layout*/
+  .footer {
+    padding: 20px; 
+    text-align: center; 
+    background: white; 
+  }
