@@ -16,20 +16,61 @@ body {
     text-decoration: none;
     font-size: 17px;
   }
-  /* hover color*/
+  /* hover color topnav*/
   .topnav a:hover {
     background-color: #9FA4BF;
     color: #6C718C;
   }
-  /* active link*/
+  /* active link topnav*/
   .topnav a.active {
     background-color: #9FA4BF;
     color: #6C718C;
   }
+
+.hero {
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    height: 500px;
+    align-items: center;
+    background-color: #9FA4BF;
+    border: 400px;
+  
+      }
+  
+ 
+  .toptext {
+    text-align: right;
+    border: 20px;
+    padding: 50px;
+    
+
+  }
+
+    .mepic {
+        border: 20px;
+        padding: 50px;
+    }
 
   /*footer layout*/
   .footer {
     padding: 20px; 
     text-align: center; 
     background: white; 
+  }
+  /*footer links*/
+  .links a{
+      background-color: white;
+      overflow: hidden;
+  }
+    /*footer link layout*/
+  .links a {
+    float: center;
+    color: #6B728B;
+    text-align: center;
+    padding: 14px 38px;
+    text-decoration: none;
+    font-size: 17px;
+  }  
   }
