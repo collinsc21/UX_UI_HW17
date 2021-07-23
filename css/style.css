@@ -47,19 +47,12 @@ body {
 
   .toptext {
     color:#592925;
-    text-align: right;
+    text-align: center;
     border: 4px;
     border-style: none;
     padding: 50px;
 
   }
-
-    .mepic {
-        float: right;
-        border: 20px;
-        padding: 50px;
-        
-    }
 
   
   /* Left and right column */
@@ -68,13 +61,13 @@ float: center;
   }
 
   .project1 {
-      background-color: #9FA4BF;
+      background-color: #6C718C;
       padding: 20px;
       border:4px;
   }
 .project2 {
     text-align:right;
-    background-color: lavenderblush;
+    background-color: #9FA4BF;
     padding: 20px;
     border:4px;
 }
@@ -97,6 +90,7 @@ float: center;
     padding: 20px; 
     text-align: center; 
     background: white; 
+    color: #6C718C;
   }
   /*footer links*/
   .links a{
